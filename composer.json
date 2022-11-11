@@ -1,0 +1,46 @@
+{
+  "name": "contributte/starter-skeleton",
+  "description": "Starter project skeleton based on Nette Framework (@nette) and Contributte (@contributte) libraries by @f3l1x.",
+  "keywords": [
+    "php",
+    "nette",
+    "contributte",
+    "sandbox",
+    "project",
+    "skeleton",
+    "web"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+
+    "contributte/application": "^0.5.0",
+    "contributte/bootstrap": "^0.5.0",
+    "contributte/di": "^0.5.0",
+    "contributte/forms": "^0.5.0",
+    "contributte/http": "^0.4.0",
+    "contributte/mail": "^0.6.0",
+    "contributte/utils": "^0.5.0",
+    "contributte/latte": "^0.5.0",
+    "contributte/tracy": "^0.5.0",
+
+    "nette/robot-loader": "^3.4.0"
+  },
+  "require-dev": {
+    "ninjify/qa": "^0.14",
+    "ninjify/nunjuck": "^0.4",
+    "contributte/dev": "^0.3",
+    "phpstan/phpstan": "^1.0",
+    "phpstan/phpstan-deprecation-rules": "^1.0",
+    "phpstan/phpstan-nette": "^1.0",
+    "phpstan/phpstan-strict-rules": "^1.0"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
